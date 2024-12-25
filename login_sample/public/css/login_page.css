@@ -1,0 +1,84 @@
+.m_body {
+    background-image: linear-gradient(70deg, rgb(153, 255, 179), rgb(94, 97, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_div {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
+    box-shadow: 3px 4px 25px 0px;
+    font-size: 16px;
+}
+
+.main_ch {
+    padding-top: 10px;
+    position: relative;
+    background-color: white;
+    width: 358px;
+    font-family: Arial;
+}
+
+.main_ch u {
+    position: relative;
+    background-color: white;
+    width: 350px;
+    color: red;
+}
+
+.main_ch form {
+    position: relative;
+    top: 8%;
+}
+
+.main_ch input {
+    background-color: rgb(211, 248, 255);
+    border: none;
+    outline: none;
+    text-indent: 20px;
+    height: 40px;
+    width: 320px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.main_ch input:focus {
+    box-shadow: 2px 2px 15px;
+}
+
+.main_ch input:hover {
+    box-shadow: 2px 2px 15px;
+}
+
+.main_ch button {
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-image: linear-gradient(70deg, rgb(126, 255, 154), rgb(55, 58, 255));
+    transition: background-image 5s;
+}
+
+.main_ch button:hover {
+
+    background-image: linear-gradient(70deg, rgb(126, 255, 154), rgb(87, 255, 123));
+    box-shadow: 2px 2px 15px;
+}
+
+.main_ch2 {
+    background-image: url('../images/user_login_2.png');
+    background-size: cover;
+    width: 442px;
+}

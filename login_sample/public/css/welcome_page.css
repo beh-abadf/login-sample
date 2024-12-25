@@ -1,0 +1,30 @@
+.m_body {
+    background-image: linear-gradient(70deg, rgb(153, 255, 179), rgb(94, 97, 255));
+}
+
+.main_div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    font-size: 16px;
+    top: 30%;
+}
+
+.main_div h1 {
+    font-size: 70px;
+    font-family: Impact;
+    margin-bottom: 40px;
+    color: blue;
+}
+
+.main_div p {
+    font-size: 30px;
+    font-family: Times;
+}
+
+.main_div p u{
+    font-size: 31px;
+    font-family: Times;
+}
