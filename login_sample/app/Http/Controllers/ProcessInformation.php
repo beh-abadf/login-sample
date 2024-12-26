@@ -21,6 +21,7 @@ class ProcessInformation extends Controller
 {
     private $token;
 
+    //Random code which is sent to user email address
     private function generateRandomStringNumbers($length)
     {
         $characters = '0123456789';
@@ -132,6 +133,7 @@ class ProcessInformation extends Controller
             DB::table('users')
                 ->where('email', '=', session('email'))
                 ->update(['password' => Hash::make($request['password_confirmation'])]);
+
 
             session()->forget([
                 'code',
