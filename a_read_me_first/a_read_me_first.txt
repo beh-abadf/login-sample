@@ -1,3 +1,5 @@
+0_ Run 'composer install' command for missing packages or files.
+
 1_ Run server
 
 2_ Make a mysql database and name it 'login_sample_db' and import '.sql' file in dummy_data folder.
